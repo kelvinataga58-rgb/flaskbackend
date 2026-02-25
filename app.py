@@ -151,7 +151,7 @@ def mpesa_payment():
         "Password":password,
         "Timestamp": timestamp,
         "TransactionType": "CustomerPayBillOnline",
-        "Amount": '500', # use 1 when testing
+        "Amount": '1', # use 1 when testing
         "PartyA": phone, # change to your number
         "PartyB": "174379",
         "PhoneNumber": phone,
